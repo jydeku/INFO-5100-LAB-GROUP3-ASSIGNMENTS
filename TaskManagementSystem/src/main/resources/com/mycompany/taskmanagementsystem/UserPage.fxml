@@ -7,9 +7,9 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="389.0" prefWidth="715.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.taskmanagementsystem.UserPageController">
+<AnchorPane id="AnchorPane" prefHeight="389.0" prefWidth="797.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.taskmanagementsystem.UserPageController">
    <children>
-      <TableView fx:id="tableView" editable="true" layoutX="264.0" layoutY="6.0" prefHeight="346.0" prefWidth="449.0">
+      <TableView fx:id="tableView" editable="true" layoutX="264.0" layoutY="6.0" prefHeight="346.0" prefWidth="524.0">
         <columns>
           <TableColumn fx:id="taskColumn" prefWidth="75.0" text="Task" />
           <TableColumn fx:id="descriptionColumn" prefWidth="75.0" text="Description" />
